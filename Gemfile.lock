@@ -203,9 +203,9 @@ GEM
     fog-voxel (0.1.0)
       fog-core
       fog-xml
-    fog-vsphere (2.5.0)
+    fog-vsphere (3.0.0)
       fog-core
-      rbvmomi (~> 1.9)
+      rbvmomi (>= 1.9, < 3)
     fog-xenserver (1.0.0)
       fog-core
       fog-xml
@@ -270,6 +270,7 @@ GEM
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
+    optimist (3.0.0)
     pg (0.18.4)
     pry (0.12.2)
       coderay (~> 1.1.0)
@@ -309,11 +310,11 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rbvmomi (1.13.0)
+    rbvmomi (2.0.1)
       builder (~> 3.0)
       json (>= 1.8)
       nokogiri (~> 1.5)
-      trollop (~> 2.1)
+      optimist (~> 3.0)
     ruby-progressbar (1.10.0)
     sass (3.7.3)
       sass-listen (~> 4.0.0)
@@ -343,7 +344,6 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
-    trollop (2.9.9)
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.2.0)
