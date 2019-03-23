@@ -20,7 +20,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.13'
+  
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
@@ -41,6 +41,8 @@ end
 group :production do
   gem 'pg', '0.18.4'
 end
+
+
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
