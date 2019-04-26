@@ -12,11 +12,34 @@
 
 body {
   padding-top: 60px;
+
+background-image: url(https://www.pakutaso.com/shared/img/thumb/KAZTDSCF6970_TP_V.jpg);
+
+background-position: center center;
+
+background-repeat: no-repeat;
+
+background-attacment: fixed;
+
+background-size: cover;
+}
+
+.jumbotron{
+background-color: rgba(33,39,98,0);
+}
+
+.jumbotron{
+   color:#EEFFFF;
 }
 
 section {
   overflow: auto;
 }
+.btn-primary{
+  color: #fff;
+  background-color: #808000;
+}
+
 
 textarea {
   resize: vertical;
@@ -36,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
+.navbar {
+ background: #666633;
+}
+
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
@@ -49,7 +76,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: #666633;
 }
 
 p {
@@ -60,10 +87,11 @@ p {
 /* header */
 
 #logo {
+  background: #666633;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: #33FF33;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -71,7 +99,7 @@ p {
 }
 
 #logo:hover {
-  color: #fff;
+  color: #CCFF66;
   text-decoration: none;
 }
 
@@ -82,11 +110,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  color: #077;
 }
 
 footer a {
-  color: #555;
+  color: #0F0;
 }
 
 footer a:hover {
@@ -95,6 +123,7 @@ footer a:hover {
 
 footer small {
   float: left;
+  color: #0F0;
 }
 
 footer ul {
@@ -294,4 +323,47 @@ span.picture {
   input {
     border: 0;
   }
+}
+
+#help
+
+.shi{
+  text-align: center;
+}
+
+.shiraya{
+  text-align: center;
+}
+
+.gangura {
+  text-align: center;
+}
+
+
+/* 文字色*/
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #DDDDDD;
+    background-color: #fff;
+}
+a  {
+    color: #2DFF57;
+    text-decoration: none;
+     &:hover {
+    color: #008800;
+    text-decoration: none;
+  }
+}
+
+.jumbotron {
+  background-color:  rgba(33, 39, 98, 0);
+}
+.jumbotron .h1 {
+    color: #EEFFFF;
+}
+
+textarea {
+  color :black;
 }
